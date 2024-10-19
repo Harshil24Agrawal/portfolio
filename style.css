@@ -1,0 +1,113 @@
+body {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: rgb(28, 218, 186);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    overflow: hidden;
+    /* Ensures the text doesn't overflow */
+    white-space: nowrap;
+    /* Prevents wrapping */
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* Separate text and links */
+    align-items: center;
+    background-color: #333;
+    border-radius: 8px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.social-icons img {
+    height: 20px;
+    margin: 0 5px;
+}
+
+body {
+    background-image: url(./moon2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    color: aliceblue;
+
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+    display: inline-block;
+}
+
+a:hover {
+    color: #33f764;
+    transform: scale(1.07);
+
+}
+
+a:visited {
+    color: rgb(60, 23, 163);
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+}
+
+footer {
+    background-color: #333;
+    /* Dark background */
+    color: white;
+    /* White text color */
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    /* Space above the footer */
+}
+
+footer a {
+    color: #33f764;
+    /* Footer link color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+footer a:hover {
+    text-decoration: underline;
+    /* Underline on hover */
+}
